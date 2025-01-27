@@ -4,7 +4,7 @@ Installation
 	•	Enhet eller emulator för MacOS/iOS
 	2.	Installationssteg:
 # Klona projektet
-git clone https://github.com/Javadov/parkomatApp.git
+git clone [https://github.com/Javadov/ParkomatFirebase]
 
 # Gå till projektmappen
 cd parking_admin
