@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "325314643898",
+    "project_id": "park0mat",
+    "storage_bucket": "park0mat.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325314643898:android:1cf90858a4c97b8a24ff83",
+        "android_client_info": {
+          "package_name": "com.example.parking_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCucBIHVpwoqUX-f5cJ3qwVCWCUUSFr2tM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325314643898:android:b1289a8ef470115924ff83",
+        "android_client_info": {
+          "package_name": "com.example.parking_user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCucBIHVpwoqUX-f5cJ3qwVCWCUUSFr2tM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

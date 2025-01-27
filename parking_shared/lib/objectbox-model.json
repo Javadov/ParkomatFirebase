@@ -1,0 +1,220 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "3:959392542282624004",
+      "lastPropertyId": "5:366268595154323979",
+      "name": "User",
+      "properties": [
+        {
+          "id": "1:3883912987327337777",
+          "name": "id",
+          "type": 9
+        },
+        {
+          "id": "2:3637170102591710611",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:6571846998846168863",
+          "name": "email",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "1:9175906068833580531"
+        },
+        {
+          "id": "4:1620611561189272627",
+          "name": "password",
+          "type": 9
+        },
+        {
+          "id": "5:366268595154323979",
+          "name": "obxId",
+          "type": 6,
+          "flags": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:2596498162768666303",
+      "lastPropertyId": "8:2274264959704198522",
+      "name": "Parking",
+      "properties": [
+        {
+          "id": "1:1433840819618532521",
+          "name": "obxId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4007584287305455601",
+          "name": "id",
+          "type": 9
+        },
+        {
+          "id": "3:5788876437963633298",
+          "name": "startTime",
+          "type": 10
+        },
+        {
+          "id": "4:8675744516925098217",
+          "name": "endTime",
+          "type": 10
+        },
+        {
+          "id": "5:59898806100653316",
+          "name": "totalCost",
+          "type": 8
+        },
+        {
+          "id": "6:5883008413486031707",
+          "name": "userEmail",
+          "type": 9
+        },
+        {
+          "id": "7:1581708250910361494",
+          "name": "vehicleRegistrationNumber",
+          "type": 9
+        },
+        {
+          "id": "8:2274264959704198522",
+          "name": "parkingSpaceId",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "6:1131075618209946908",
+      "lastPropertyId": "9:6272643915574849142",
+      "name": "ParkingSpace",
+      "properties": [
+        {
+          "id": "1:5545808925001900304",
+          "name": "obxId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1368498885362364016",
+          "name": "id",
+          "type": 9
+        },
+        {
+          "id": "3:524887470222097762",
+          "name": "address",
+          "type": 9
+        },
+        {
+          "id": "4:8163941226024908124",
+          "name": "city",
+          "type": 9
+        },
+        {
+          "id": "5:9113572206847311077",
+          "name": "zipCode",
+          "type": 9
+        },
+        {
+          "id": "6:6196793812137385610",
+          "name": "country",
+          "type": 9
+        },
+        {
+          "id": "7:1714036300503460934",
+          "name": "latitude",
+          "type": 8
+        },
+        {
+          "id": "8:1392044990398225866",
+          "name": "longitude",
+          "type": 8
+        },
+        {
+          "id": "9:6272643915574849142",
+          "name": "pricePerHour",
+          "type": 8
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "7:5876893901240847629",
+      "lastPropertyId": "5:2992509304028024262",
+      "name": "Vehicle",
+      "properties": [
+        {
+          "id": "1:5216290709088527990",
+          "name": "obxId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4845862284099591495",
+          "name": "id",
+          "type": 9
+        },
+        {
+          "id": "3:2052638783210707518",
+          "name": "registrationNumber",
+          "type": 9
+        },
+        {
+          "id": "4:1076123406969817226",
+          "name": "type",
+          "type": 9
+        },
+        {
+          "id": "5:2992509304028024262",
+          "name": "userEmail",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "7:5876893901240847629",
+  "lastIndexId": "2:2871070238185634928",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    6998721276437304124,
+    5168662742878284962,
+    7881017130129921963
+  ],
+  "retiredIndexUids": [
+    2871070238185634928
+  ],
+  "retiredPropertyUids": [
+    6750510395237958128,
+    420607913860778508,
+    1170188144382710199,
+    3305758209747811678,
+    7007877749039060081,
+    5783202775936684005,
+    4379367736794568000,
+    1806376632404765018,
+    2907491757658032973,
+    1968756169293125549,
+    6462013208627259822,
+    5284129244728960312,
+    5381654118475782913,
+    1131603248311074474,
+    7151627968255839101,
+    311079730507691224,
+    3791281124316142084,
+    5164983110638066417,
+    2499435001020867788,
+    1604592689629557308,
+    4179111623342177061,
+    1687708515624826174
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
